@@ -1,0 +1,154 @@
+{
+ "date_shift": [
+  "2022-09-01 00:20:00",
+  "Thursday",
+  "2019-09-05 00:20:00",
+  "Thursday"
+ ],
+ "transplant": {
+  "source_median": 33.95,
+  "target_median": 77.47,
+  "rows": [
+   [
+    "2020-03-17 05:58:08",
+    "gas_transport",
+    76.39,
+    "своя"
+   ],
+   [
+    "2020-03-17 10:04:16",
+    "grocery_pos",
+    98.17,
+    "своя"
+   ],
+   [
+    "2020-03-17 10:57:19",
+    "misc_net",
+    87.55,
+    "своя"
+   ],
+   [
+    "2020-03-17 14:00:42",
+    "travel",
+    526.58,
+    "своя"
+   ],
+   [
+    "2020-03-17 21:43:45",
+    "food_dining",
+    56.08,
+    "своя"
+   ],
+   [
+    "2020-03-18 01:01:29",
+    "shopping_net",
+    2223.4,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 01:01:54",
+    "shopping_pos",
+    2145.02,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 01:27:30",
+    "shopping_net",
+    2560.41,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 02:09:31",
+    "shopping_pos",
+    2177.97,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 06:09:39",
+    "grocery_pos",
+    95.79,
+    "своя"
+   ],
+   [
+    "2020-03-18 20:35:25",
+    "food_dining",
+    62.17,
+    "своя"
+   ],
+   [
+    "2020-03-18 23:01:03",
+    "entertainment",
+    991.84,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 23:04:47",
+    "kids_pets",
+    39.75,
+    "вставлена"
+   ],
+   [
+    "2020-03-18 23:23:35",
+    "personal_care",
+    42.15,
+    "вставлена"
+   ]
+  ]
+ },
+ "matching": {
+  "card": [
+   "F",
+   34.3,
+   37.3712,
+   -89.1349
+  ],
+  "client": {
+   "id": "504",
+   "gender": "Female",
+   "current_age": "38",
+   "latitude": "37.88",
+   "longitude": "-89.49",
+   "yearly_income": "$34311",
+   "total_debt": "$61776",
+   "credit_score": "705"
+  }
+ },
+ "merchant_scenario": {
+  "merchant": "fraud_Eichmann-Kilback",
+  "category": "home",
+  "cards": 48,
+  "compromised": 14
+ },
+ "graph_density": {
+  "merchants_per_card_median": 591,
+  "cards_per_merchant_median": 792,
+  "merchants": 693
+ },
+ "sparkov_card_days_ge3": 1679,
+ "sparkov_curve": [
+  {
+   "fraud": 75,
+   "pr_auc": 0.6296
+  },
+  {
+   "fraud": 375,
+   "pr_auc": 0.7796
+  },
+  {
+   "fraud": 750,
+   "pr_auc": 0.792
+  },
+  {
+   "fraud": 1876,
+   "pr_auc": 0.8139
+  },
+  {
+   "fraud": 3753,
+   "pr_auc": 0.7032
+  },
+  {
+   "fraud": 7506,
+   "pr_auc": 0.782
+  }
+ ]
+}

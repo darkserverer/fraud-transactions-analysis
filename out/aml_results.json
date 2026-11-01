@@ -1,0 +1,41 @@
+{
+ "rows": 5078345,
+ "laundering": 5177,
+ "share_pct": 0.1019,
+ "period": [
+  "2022-09-01 00:00:00",
+  "2022-09-18 16:18:00"
+ ],
+ "currencies": 15,
+ "senders": 496995,
+ "receivers": 420636,
+ "formats": {
+  "Cheque": 1864331,
+  "Credit Card": 1323324,
+  "ACH": 600797,
+  "Cash": 490891,
+  "Reinvestment": 481056,
+  "Wire": 171855,
+  "Bitcoin": 146091
+ },
+ "top_currencies": {
+  "US Dollar": 1879341,
+  "Euro": 1172017
+ },
+ "out_deg": [
+  2,
+  29,
+  92,
+  168672
+ ],
+ "in_deg": [
+  4,
+  31,
+  51,
+  1084
+ ],
+ "median_amount": {
+  "0": 1407.51,
+  "1": 8667.21
+ }
+}

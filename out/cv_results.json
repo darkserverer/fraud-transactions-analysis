@@ -1,0 +1,110 @@
+{
+ "period": [
+  "2010-01-01 00:01:00",
+  "2019-10-31 23:59:00"
+ ],
+ "rows": 13305915,
+ "labelled": 8914963,
+ "fraud": 13332,
+ "share_pct": 0.1495,
+ "cards": 4071,
+ "clients": 1219,
+ "merchants": 74831,
+ "ops_per_card_median": 2558,
+ "fraud_cards": 2060,
+ "fraud_clients": 1196,
+ "fraud_merchants": 1090,
+ "card_days": 6628,
+ "card_days_ge3": 1729,
+ "fraud_by_year": {
+  "2010": 2573,
+  "2011": 37,
+  "2012": 923,
+  "2013": 1337,
+  "2014": 664,
+  "2015": 2189,
+  "2016": 2448,
+  "2017": 172,
+  "2018": 1629,
+  "2019": 1360
+ },
+ "online_share": {
+  "0": 0.116,
+  "1": 0.658
+ },
+ "amount_median": {
+  "0": 28.95,
+  "1": 69.975
+ },
+ "top_states": {
+  "ONLINE": 8779,
+  "Italy": 3061,
+  "OH": 316,
+  "Haiti": 253
+ },
+ "time_70_30": {
+  "test_rate_pct": 0.1183,
+  "fit_fraud": 10169,
+  "test_fraud": 3163,
+  "base": [
+   0.5898,
+   0.0023
+  ],
+  "encoded": [
+   0.5838,
+   0.003
+  ]
+ },
+ "random_70_30": {
+  "test_rate_pct": 0.1487,
+  "fit_fraud": 9354,
+  "test_fraud": 3978,
+  "base": [
+   0.8966,
+   0.5596
+  ],
+  "encoded": [
+   0.9548,
+   0.6362
+  ]
+ },
+ "window_2015_2017": {
+  "test_rate_pct": 0.1746,
+  "fit_fraud": 4809,
+  "test_fraud": 2989,
+  "base": [
+   0.6615,
+   0.1682
+  ],
+  "encoded": [
+   0.9624,
+   0.2801
+  ]
+ },
+ "curve": [
+  {
+   "fraud": 101,
+   "pr_auc": 0.0031
+  },
+  {
+   "fraud": 508,
+   "pr_auc": 0.0025
+  },
+  {
+   "fraud": 1016,
+   "pr_auc": 0.0019
+  },
+  {
+   "fraud": 2542,
+   "pr_auc": 0.002
+  },
+  {
+   "fraud": 5084,
+   "pr_auc": 0.0024
+  },
+  {
+   "fraud": 10169,
+   "pr_auc": 0.0022
+  }
+ ]
+}

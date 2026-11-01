@@ -1,0 +1,447 @@
+{
+ "rows": 1852394,
+ "fraud": 9651,
+ "share_pct": 0.521,
+ "train_rows": 1296675,
+ "train_fraud": 7506,
+ "train_share_pct": 0.5789,
+ "test_rows": 555719,
+ "test_fraud": 2145,
+ "test_share_pct": 0.386,
+ "fit_rows": 1102173,
+ "val_rows": 194502,
+ "period": [
+  "2019-01-01 00:00:18",
+  "2020-12-31 23:59:34"
+ ],
+ "train_end": "2020-06-21 12:13:37",
+ "test_start": "2020-06-21 12:14:25",
+ "missing": 0,
+ "duplicates": 0,
+ "amount": {
+  "legit": {
+   "median": 47.24,
+   "p75": 82.56,
+   "p99": 484.91,
+   "max": 28948.9,
+   "mean": 67.65
+  },
+  "fraud": {
+   "median": 390.0,
+   "p75": 902.37,
+   "p99": 1175.85,
+   "max": 1376.04,
+   "mean": 530.66
+  }
+ },
+ "skew": [
+  40.81,
+  -0.3
+ ],
+ "bands": {
+  "0-30": [
+   2009,
+   20.8
+  ],
+  "200-400": [
+   2507,
+   26.0
+  ],
+  "700-1100": [
+   3948,
+   40.9
+  ]
+ },
+ "legit_above_fraud_max": [
+  2299,
+  0.124
+ ],
+ "legit_p99_fraud_above_pct": 48.8,
+ "iqr": {
+  "q1": 9.64,
+  "q3": 83.1,
+  "fence": 193.29,
+  "outside_rows": 95054,
+  "outside_pct": 5.13,
+  "rate_outside_pct": 7.699,
+  "rate_inside_pct": 0.133,
+  "fraud_outside": 7318,
+  "fraud_outside_pct": 75.83
+ },
+ "hour_rate_pct": {
+  "0": 1.357,
+  "1": 1.348,
+  "2": 1.304,
+  "3": 1.317,
+  "4": 0.102,
+  "5": 0.133,
+  "6": 0.089,
+  "7": 0.119,
+  "8": 0.098,
+  "9": 0.101,
+  "10": 0.086,
+  "11": 0.098,
+  "12": 0.09,
+  "13": 0.101,
+  "14": 0.107,
+  "15": 0.107,
+  "16": 0.103,
+  "17": 0.101,
+  "18": 0.118,
+  "19": 0.112,
+  "20": 0.105,
+  "21": 0.108,
+  "22": 2.601,
+  "23": 2.546
+ },
+ "gender_rate_pct": {
+  "F": 0.483,
+  "M": 0.567
+ },
+ "age_median": [
+  47.8,
+  44.2
+ ],
+ "category": {
+  "shopping_net": {
+   "rate_pct": 1.593,
+   "rows": 139322,
+   "fraud": 2219
+  },
+  "misc_net": {
+   "rate_pct": 1.304,
+   "rows": 90654,
+   "fraud": 1182
+  },
+  "grocery_pos": {
+   "rate_pct": 1.265,
+   "rows": 176191,
+   "fraud": 2228
+  },
+  "shopping_pos": {
+   "rate_pct": 0.634,
+   "rows": 166463,
+   "fraud": 1056
+  },
+  "gas_transport": {
+   "rate_pct": 0.411,
+   "rows": 188029,
+   "fraud": 772
+  },
+  "misc_pos": {
+   "rate_pct": 0.282,
+   "rows": 114229,
+   "fraud": 322
+  },
+  "grocery_net": {
+   "rate_pct": 0.27,
+   "rows": 64878,
+   "fraud": 175
+  },
+  "travel": {
+   "rate_pct": 0.269,
+   "rows": 57956,
+   "fraud": 156
+  },
+  "personal_care": {
+   "rate_pct": 0.223,
+   "rows": 130085,
+   "fraud": 290
+  },
+  "entertainment": {
+   "rate_pct": 0.218,
+   "rows": 134118,
+   "fraud": 292
+  },
+  "kids_pets": {
+   "rate_pct": 0.188,
+   "rows": 161727,
+   "fraud": 304
+  },
+  "food_dining": {
+   "rate_pct": 0.157,
+   "rows": 130729,
+   "fraud": 205
+  },
+  "home": {
+   "rate_pct": 0.151,
+   "rows": 175460,
+   "fraud": 265
+  },
+  "health_fitness": {
+   "rate_pct": 0.151,
+   "rows": 122553,
+   "fraud": 185
+  }
+ },
+ "category_amounts": {
+  "entertainment": {
+   "fraud_min": 334.92,
+   "fraud_max": 695.53,
+   "fraud_median": 500.84,
+   "legit_median": 50.65,
+   "legit_max": 934.47
+  },
+  "food_dining": {
+   "fraud_min": 92.79,
+   "fraud_max": 149.53,
+   "fraud_median": 119.72,
+   "legit_median": 41.87,
+   "legit_max": 769.26
+  },
+  "gas_transport": {
+   "fraud_min": 5.53,
+   "fraud_max": 24.84,
+   "fraud_median": 10.64,
+   "legit_median": 62.94,
+   "legit_max": 154.03
+  },
+  "grocery_net": {
+   "fraud_min": 5.6,
+   "fraud_max": 19.92,
+   "fraud_median": 12.1,
+   "legit_median": 50.98,
+   "legit_max": 185.81
+  },
+  "grocery_pos": {
+   "fraud_min": 237.04,
+   "fraud_max": 397.97,
+   "fraud_median": 310.24,
+   "legit_median": 104.52,
+   "legit_max": 290.88
+  },
+  "health_fitness": {
+   "fraud_min": 14.13,
+   "fraud_max": 26.47,
+   "fraud_median": 19.8,
+   "legit_median": 42.88,
+   "legit_max": 598.38
+  },
+  "home": {
+   "fraud_min": 168.06,
+   "fraud_max": 443.25,
+   "fraud_median": 253.33,
+   "legit_median": 48.16,
+   "legit_max": 560.81
+  },
+  "kids_pets": {
+   "fraud_min": 2.36,
+   "fraud_max": 25.54,
+   "fraud_median": 19.64,
+   "legit_median": 47.2,
+   "legit_max": 586.34
+  },
+  "misc_net": {
+   "fraud_min": 576.1,
+   "fraud_max": 1112.91,
+   "fraud_median": 794.21,
+   "legit_median": 9.73,
+   "legit_max": 4084.34
+  },
+  "misc_pos": {
+   "fraud_min": 5.99,
+   "fraud_max": 1036.63,
+   "fraud_median": 9.1,
+   "legit_median": 14.01,
+   "legit_max": 4800.65
+  },
+  "personal_care": {
+   "fraud_min": 15.41,
+   "fraud_max": 54.69,
+   "fraud_median": 20.97,
+   "legit_median": 32.79,
+   "legit_max": 527.03
+  },
+  "shopping_net": {
+   "fraud_min": 711.2,
+   "fraud_max": 1312.98,
+   "fraud_median": 994.15,
+   "legit_median": 8.3,
+   "legit_max": 9555.26
+  },
+  "shopping_pos": {
+   "fraud_min": 592.56,
+   "fraud_max": 1376.04,
+   "fraud_median": 869.91,
+   "legit_median": 7.72,
+   "legit_max": 9754.72
+  },
+  "travel": {
+   "fraud_min": 1.06,
+   "fraud_max": 13.11,
+   "fraud_median": 9.7,
+   "legit_median": 6.23,
+   "legit_max": 28948.9
+  }
+ },
+ "cards_total": 999,
+ "cards_fraud": 976,
+ "cards_without_history": 91,
+ "ratio": {
+  "median": [
+   10.23,
+   1.0
+  ],
+  "gt5_pct": [
+   71.9,
+   3.4
+  ],
+  "gt10_pct": [
+   50.5,
+   1.0
+  ]
+ },
+ "gap_h": {
+  "median": [
+   1.37,
+   4.37
+  ],
+  "p25_fraud": 0.41
+ },
+ "count_median": {
+  "hour": [
+   1.0,
+   1.0
+  ],
+  "day": [
+   6.0,
+   4.0
+  ]
+ },
+ "types": {
+  "series": 9240,
+  "anomalous_amount": 278,
+  "other": 133
+ },
+ "fraud_span_median_days": 1.89,
+ "series": {
+  "card_days": 1927,
+  "per_card_day_median": 5.0,
+  "per_card_day_max": 16,
+  "card_days_ge3_pct": 87.1
+ },
+ "merchant": {
+  "total": 693,
+  "with_fraud": 685,
+  "max_rate_pct": 2.18,
+  "median_rate_pct": 0.272
+ },
+ "geo": {
+  "cities": 906,
+  "states": 51,
+  "zips": 985,
+  "jobs": 497,
+  "categories": 14,
+  "pop_median": 2443.0,
+  "pop_max": 2906700.0,
+  "pop_skew": 5.59
+ },
+ "dist_km": {
+  "legit": [
+   55.3,
+   78.2,
+   98.5,
+   120.5
+  ],
+  "fraud": [
+   55.6,
+   78.1,
+   98.4,
+   120.3
+  ]
+ },
+ "rate_choice": {
+  "0.1": 0.8319,
+  "0.05": 0.9218
+ },
+ "rate": 0.05,
+ "model_amt": {
+  "roc": [
+   0.9597,
+   0.0001
+  ],
+  "pr": [
+   0.1856,
+   0.0072
+  ]
+ },
+ "model_amt_hour_cat": {
+  "roc": [
+   0.9962,
+   0.0002
+  ],
+  "pr": [
+   0.7787,
+   0.0042
+  ]
+ },
+ "model_no_dist": {
+  "roc": [
+   0.9939,
+   0.0011
+  ],
+  "pr": [
+   0.8574,
+   0.008
+  ]
+ },
+ "model_full": {
+  "roc": [
+   0.9932,
+   0.0007
+  ],
+  "pr": [
+   0.8429,
+   0.0272
+  ]
+ },
+ "model_random_split": {
+  "roc": [
+   0.9971,
+   0.0011
+  ],
+  "pr": [
+   0.898,
+   0.0017
+  ]
+ },
+ "budget": [
+  {
+   "share_pct": 0.1,
+   "alerts": 555,
+   "hit": 547,
+   "recall_pct": 25.5,
+   "precision_pct": 98.56
+  },
+  {
+   "share_pct": 0.5,
+   "alerts": 2778,
+   "hit": 1863,
+   "recall_pct": 86.85,
+   "precision_pct": 67.06
+  },
+  {
+   "share_pct": 1.0,
+   "alerts": 5557,
+   "hit": 1988,
+   "recall_pct": 92.68,
+   "precision_pct": 35.77
+  },
+  {
+   "share_pct": 2.0,
+   "alerts": 11114,
+   "hit": 2067,
+   "recall_pct": 96.36,
+   "precision_pct": 18.6
+  }
+ ],
+ "rule": {
+  "threshold": 545.99,
+  "alerts": 4985,
+  "hit": 1025,
+  "recall_pct": 47.79,
+  "precision_pct": 20.56
+ },
+ "corr_label_max": 0.083,
+ "corr_amt_ratio": 0.96
+}
