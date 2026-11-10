@@ -1,0 +1,507 @@
+{
+ "бустинг": {
+  "roc_auc": 0.9891,
+  "pr_auc": 0.5998,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 676,
+    "fp": 102,
+    "recall_pct": 41.75,
+    "precision_pct": 86.89,
+    "fpr_pct": 0.0131,
+    "fp_per_day": 0.34,
+    "precision_nbu_pct": 7.899
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1130,
+    "fp": 2758,
+    "recall_pct": 69.8,
+    "precision_pct": 29.06,
+    "fpr_pct": 0.3554,
+    "fp_per_day": 9.07,
+    "precision_nbu_pct": 0.527
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1279,
+    "fp": 6497,
+    "recall_pct": 79.0,
+    "precision_pct": 16.45,
+    "fpr_pct": 0.8373,
+    "fp_per_day": 21.37,
+    "precision_nbu_pct": 0.254
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1399,
+    "fp": 14152,
+    "recall_pct": 86.41,
+    "precision_pct": 9.0,
+    "fpr_pct": 1.8238,
+    "fp_per_day": 46.55,
+    "precision_nbu_pct": 0.128
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 71.73,
+   "2": 62.15,
+   "4": 75.76,
+   "5": 0.0
+  }
+ },
+ "GRU": {
+  "roc_auc": 0.9909,
+  "pr_auc": 0.6557,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 674,
+    "fp": 104,
+    "recall_pct": 41.63,
+    "precision_pct": 86.63,
+    "fpr_pct": 0.0134,
+    "fp_per_day": 0.34,
+    "precision_nbu_pct": 7.738
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1252,
+    "fp": 2636,
+    "recall_pct": 77.33,
+    "precision_pct": 32.2,
+    "fpr_pct": 0.3397,
+    "fp_per_day": 8.67,
+    "precision_nbu_pct": 0.611
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1356,
+    "fp": 6420,
+    "recall_pct": 83.76,
+    "precision_pct": 17.44,
+    "fpr_pct": 0.8274,
+    "fp_per_day": 21.12,
+    "precision_nbu_pct": 0.273
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1444,
+    "fp": 14107,
+    "recall_pct": 89.19,
+    "precision_pct": 9.29,
+    "fpr_pct": 1.818,
+    "fp_per_day": 46.41,
+    "precision_nbu_pct": 0.132
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 78.53,
+   "2": 85.51,
+   "4": 72.29,
+   "5": 7.14
+  }
+ },
+ "випадковий ліс": {
+  "roc_auc": 0.985,
+  "pr_auc": 0.3507,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 428,
+    "fp": 350,
+    "recall_pct": 26.44,
+    "precision_pct": 55.01,
+    "fpr_pct": 0.0451,
+    "fp_per_day": 1.15,
+    "precision_nbu_pct": 1.558
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1055,
+    "fp": 2833,
+    "recall_pct": 65.16,
+    "precision_pct": 27.13,
+    "fpr_pct": 0.3651,
+    "fp_per_day": 9.32,
+    "precision_nbu_pct": 0.48
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1157,
+    "fp": 6619,
+    "recall_pct": 71.46,
+    "precision_pct": 14.88,
+    "fpr_pct": 0.853,
+    "fp_per_day": 21.77,
+    "precision_nbu_pct": 0.226
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1292,
+    "fp": 14259,
+    "recall_pct": 79.8,
+    "precision_pct": 8.31,
+    "fpr_pct": 1.8376,
+    "fp_per_day": 46.91,
+    "precision_nbu_pct": 0.117
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 67.54,
+   "2": 55.14,
+   "4": 70.56,
+   "5": 0.0
+  }
+ },
+ "логістична регресія": {
+  "roc_auc": 0.9495,
+  "pr_auc": 0.2998,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 534,
+    "fp": 244,
+    "recall_pct": 32.98,
+    "precision_pct": 68.64,
+    "fpr_pct": 0.0314,
+    "fp_per_day": 0.8,
+    "precision_nbu_pct": 2.754
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 734,
+    "fp": 3154,
+    "recall_pct": 45.34,
+    "precision_pct": 18.88,
+    "fpr_pct": 0.4065,
+    "fp_per_day": 10.38,
+    "precision_nbu_pct": 0.3
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 838,
+    "fp": 6938,
+    "recall_pct": 51.76,
+    "precision_pct": 10.78,
+    "fpr_pct": 0.8941,
+    "fp_per_day": 22.82,
+    "precision_nbu_pct": 0.156
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 981,
+    "fp": 14570,
+    "recall_pct": 60.59,
+    "precision_pct": 6.31,
+    "fpr_pct": 1.8777,
+    "fp_per_day": 47.93,
+    "precision_nbu_pct": 0.087
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 47.03,
+   "2": 37.85,
+   "4": 48.92,
+   "5": 3.57
+  }
+ },
+ "Isolation Forest": {
+  "roc_auc": 0.903,
+  "pr_auc": 0.0335,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 70,
+    "fp": 708,
+    "recall_pct": 4.32,
+    "precision_pct": 9.0,
+    "fpr_pct": 0.0912,
+    "fp_per_day": 2.33,
+    "precision_nbu_pct": 0.128
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 239,
+    "fp": 3649,
+    "recall_pct": 14.76,
+    "precision_pct": 6.15,
+    "fpr_pct": 0.4703,
+    "fp_per_day": 12.0,
+    "precision_nbu_pct": 0.085
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 339,
+    "fp": 7437,
+    "recall_pct": 20.94,
+    "precision_pct": 4.36,
+    "fpr_pct": 0.9584,
+    "fp_per_day": 24.46,
+    "precision_nbu_pct": 0.059
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 515,
+    "fp": 15036,
+    "recall_pct": 31.81,
+    "precision_pct": 3.31,
+    "fpr_pct": 1.9378,
+    "fp_per_day": 49.46,
+    "precision_nbu_pct": 0.044
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 15.97,
+   "2": 16.82,
+   "4": 8.66,
+   "5": 0.0
+  }
+ },
+ "бустинг + GRU": {
+  "roc_auc": 0.994,
+  "pr_auc": 0.7151,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 744,
+    "fp": 34,
+    "recall_pct": 45.95,
+    "precision_pct": 95.63,
+    "fpr_pct": 0.0044,
+    "fp_per_day": 0.11,
+    "precision_nbu_pct": 22.068
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1266,
+    "fp": 2622,
+    "recall_pct": 78.2,
+    "precision_pct": 32.56,
+    "fpr_pct": 0.3379,
+    "fp_per_day": 8.63,
+    "precision_nbu_pct": 0.621
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1402,
+    "fp": 6374,
+    "recall_pct": 86.6,
+    "precision_pct": 18.03,
+    "fpr_pct": 0.8214,
+    "fp_per_day": 20.97,
+    "precision_nbu_pct": 0.284
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1512,
+    "fp": 14039,
+    "recall_pct": 93.39,
+    "precision_pct": 9.72,
+    "fpr_pct": 1.8093,
+    "fp_per_day": 46.18,
+    "precision_nbu_pct": 0.139
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 79.76,
+   "2": 76.64,
+   "4": 80.95,
+   "5": 0.0
+  }
+ },
+ "бустинг, остаточний": {
+  "roc_auc": 0.9915,
+  "pr_auc": 0.7032,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 734,
+    "fp": 44,
+    "recall_pct": 45.34,
+    "precision_pct": 94.34,
+    "fpr_pct": 0.0057,
+    "fp_per_day": 0.14,
+    "precision_nbu_pct": 17.755
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1265,
+    "fp": 2623,
+    "recall_pct": 78.13,
+    "precision_pct": 32.54,
+    "fpr_pct": 0.338,
+    "fp_per_day": 8.63,
+    "precision_nbu_pct": 0.62
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1378,
+    "fp": 6398,
+    "recall_pct": 85.11,
+    "precision_pct": 17.72,
+    "fpr_pct": 0.8245,
+    "fp_per_day": 21.05,
+    "precision_nbu_pct": 0.278
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1477,
+    "fp": 14074,
+    "recall_pct": 91.23,
+    "precision_pct": 9.5,
+    "fpr_pct": 1.8138,
+    "fp_per_day": 46.3,
+    "precision_nbu_pct": 0.136
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 80.98,
+   "2": 71.03,
+   "4": 78.79,
+   "5": 10.71
+  }
+ },
+ "GRU, остаточна": {
+  "roc_auc": 0.9944,
+  "pr_auc": 0.7677,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 746,
+    "fp": 32,
+    "recall_pct": 46.08,
+    "precision_pct": 95.89,
+    "fpr_pct": 0.0041,
+    "fp_per_day": 0.11,
+    "precision_nbu_pct": 23.176
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1351,
+    "fp": 2537,
+    "recall_pct": 83.45,
+    "precision_pct": 34.75,
+    "fpr_pct": 0.327,
+    "fp_per_day": 8.35,
+    "precision_nbu_pct": 0.684
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1448,
+    "fp": 6328,
+    "recall_pct": 89.44,
+    "precision_pct": 18.62,
+    "fpr_pct": 0.8155,
+    "fp_per_day": 20.82,
+    "precision_nbu_pct": 0.295
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1518,
+    "fp": 14033,
+    "recall_pct": 93.76,
+    "precision_pct": 9.76,
+    "fpr_pct": 1.8085,
+    "fp_per_day": 46.16,
+    "precision_nbu_pct": 0.14
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 85.25,
+   "2": 87.85,
+   "4": 80.09,
+   "5": 3.57
+  }
+ },
+ "бустинг + GRU, остаточні": {
+  "roc_auc": 0.9955,
+  "pr_auc": 0.7946,
+  "budget": [
+   {
+    "share_pct": 0.1,
+    "alerts": 778,
+    "tp": 761,
+    "fp": 17,
+    "recall_pct": 47.0,
+    "precision_pct": 97.81,
+    "fpr_pct": 0.0022,
+    "fp_per_day": 0.06,
+    "precision_nbu_pct": 36.681
+   },
+   {
+    "share_pct": 0.5,
+    "alerts": 3888,
+    "tp": 1381,
+    "fp": 2507,
+    "recall_pct": 85.3,
+    "precision_pct": 35.52,
+    "fpr_pct": 0.3231,
+    "fp_per_day": 8.25,
+    "precision_nbu_pct": 0.708
+   },
+   {
+    "share_pct": 1.0,
+    "alerts": 7776,
+    "tp": 1483,
+    "fp": 6293,
+    "recall_pct": 91.6,
+    "precision_pct": 19.07,
+    "fpr_pct": 0.811,
+    "fp_per_day": 20.7,
+    "precision_nbu_pct": 0.304
+   },
+   {
+    "share_pct": 2.0,
+    "alerts": 15551,
+    "tp": 1553,
+    "fp": 13998,
+    "recall_pct": 95.92,
+    "precision_pct": 9.99,
+    "fpr_pct": 1.804,
+    "fp_per_day": 46.05,
+    "precision_nbu_pct": 0.143
+   }
+  ],
+  "recall_by_class_at_05pct": {
+   "1": 87.87,
+   "2": 82.71,
+   "4": 84.85,
+   "5": 3.57
+  }
+ },
+ "test_days": 304.0
+}

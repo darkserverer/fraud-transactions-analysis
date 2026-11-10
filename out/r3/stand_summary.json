@@ -1,0 +1,267 @@
+{
+ "ops_total": 5701472,
+ "ops_window": 5349979,
+ "labelled_window": 3585740,
+ "by_period_class": {
+  "test": {
+   "-2": 40,
+   "-1": 382627,
+   "0": 775951,
+   "1": 1146,
+   "2": 214,
+   "4": 231,
+   "5": 28
+  },
+  "train": {
+   "-1": 1149250,
+   "0": 2330505,
+   "1": 2051,
+   "2": 4281,
+   "4": 451,
+   "5": 82
+  },
+  "valid": {
+   "-1": 232322,
+   "0": 469791,
+   "1": 667,
+   "2": 219,
+   "4": 105,
+   "5": 18
+  }
+ },
+ "by_source": {
+  "ftd": 5346183,
+  "scenario_merchant": 787,
+  "scenario_social": 40,
+  "sparkov": 2969
+ },
+ "sparkov_episodes": 300,
+ "sparkov_ops": 2969,
+ "merchant_scenarios": [
+  {
+   "scenario": "m_train_0",
+   "period": "train",
+   "merchant": 30055,
+   "window_start": "2016-07-11",
+   "cards_seen": 28,
+   "cards_hit": 8
+  },
+  {
+   "scenario": "m_train_1",
+   "period": "train",
+   "merchant": 54850,
+   "window_start": "2018-01-10",
+   "cards_seen": 60,
+   "cards_hit": 18
+  },
+  {
+   "scenario": "m_train_2",
+   "period": "train",
+   "merchant": 32606,
+   "window_start": "2017-05-06",
+   "cards_seen": 35,
+   "cards_hit": 10
+  },
+  {
+   "scenario": "m_train_3",
+   "period": "train",
+   "merchant": 26909,
+   "window_start": "2017-11-07",
+   "cards_seen": 31,
+   "cards_hit": 9
+  },
+  {
+   "scenario": "m_train_4",
+   "period": "train",
+   "merchant": 99370,
+   "window_start": "2017-06-28",
+   "cards_seen": 43,
+   "cards_hit": 13
+  },
+  {
+   "scenario": "m_train_5",
+   "period": "train",
+   "merchant": 78454,
+   "window_start": "2017-05-23",
+   "cards_seen": 54,
+   "cards_hit": 16
+  },
+  {
+   "scenario": "m_train_6",
+   "period": "train",
+   "merchant": 83271,
+   "window_start": "2017-01-06",
+   "cards_seen": 52,
+   "cards_hit": 16
+  },
+  {
+   "scenario": "m_train_7",
+   "period": "train",
+   "merchant": 17493,
+   "window_start": "2016-11-18",
+   "cards_seen": 40,
+   "cards_hit": 12
+  },
+  {
+   "scenario": "m_train_8",
+   "period": "train",
+   "merchant": 23481,
+   "window_start": "2017-06-12",
+   "cards_seen": 34,
+   "cards_hit": 10
+  },
+  {
+   "scenario": "m_train_9",
+   "period": "train",
+   "merchant": 31893,
+   "window_start": "2017-03-11",
+   "cards_seen": 31,
+   "cards_hit": 9
+  },
+  {
+   "scenario": "m_train_10",
+   "period": "train",
+   "merchant": 28395,
+   "window_start": "2017-06-18",
+   "cards_seen": 24,
+   "cards_hit": 7
+  },
+  {
+   "scenario": "m_train_11",
+   "period": "train",
+   "merchant": 88646,
+   "window_start": "2016-08-31",
+   "cards_seen": 68,
+   "cards_hit": 20
+  },
+  {
+   "scenario": "m_train_12",
+   "period": "train",
+   "merchant": 38602,
+   "window_start": "2016-03-02",
+   "cards_seen": 17,
+   "cards_hit": 5
+  },
+  {
+   "scenario": "m_train_13",
+   "period": "train",
+   "merchant": 22938,
+   "window_start": "2017-05-17",
+   "cards_seen": 32,
+   "cards_hit": 10
+  },
+  {
+   "scenario": "m_valid_0",
+   "period": "valid",
+   "merchant": 1238,
+   "window_start": "2018-08-28",
+   "cards_seen": 14,
+   "cards_hit": 4
+  },
+  {
+   "scenario": "m_valid_1",
+   "period": "valid",
+   "merchant": 12014,
+   "window_start": "2018-07-23",
+   "cards_seen": 21,
+   "cards_hit": 6
+  },
+  {
+   "scenario": "m_valid_2",
+   "period": "valid",
+   "merchant": 69972,
+   "window_start": "2018-07-04",
+   "cards_seen": 60,
+   "cards_hit": 18
+  },
+  {
+   "scenario": "m_valid_3",
+   "period": "valid",
+   "merchant": 12014,
+   "window_start": "2018-07-04",
+   "cards_seen": 25,
+   "cards_hit": 8
+  },
+  {
+   "scenario": "m_test_0",
+   "period": "test",
+   "merchant": 69956,
+   "window_start": "2019-04-11",
+   "cards_seen": 47,
+   "cards_hit": 14
+  },
+  {
+   "scenario": "m_test_1",
+   "period": "test",
+   "merchant": 72351,
+   "window_start": "2019-06-29",
+   "cards_seen": 27,
+   "cards_hit": 8
+  },
+  {
+   "scenario": "m_test_2",
+   "period": "test",
+   "merchant": 92883,
+   "window_start": "2019-07-01",
+   "cards_seen": 15,
+   "cards_hit": 4
+  },
+  {
+   "scenario": "m_test_3",
+   "period": "test",
+   "merchant": 30286,
+   "window_start": "2019-06-23",
+   "cards_seen": 63,
+   "cards_hit": 19
+  },
+  {
+   "scenario": "m_test_4",
+   "period": "test",
+   "merchant": 86616,
+   "window_start": "2019-05-08",
+   "cards_seen": 33,
+   "cards_hit": 10
+  },
+  {
+   "scenario": "m_test_5",
+   "period": "test",
+   "merchant": 89069,
+   "window_start": "2019-05-04",
+   "cards_seen": 38,
+   "cards_hit": 11
+  },
+  {
+   "scenario": "m_test_6",
+   "period": "test",
+   "merchant": 91128,
+   "window_start": "2019-03-29",
+   "cards_seen": 25,
+   "cards_hit": 8
+  },
+  {
+   "scenario": "m_test_7",
+   "period": "test",
+   "merchant": 34702,
+   "window_start": "2019-07-01",
+   "cards_seen": 12,
+   "cards_hit": 4
+  }
+ ],
+ "merchant_ops": 787,
+ "owner_clients": 24,
+ "owner_ops": 128,
+ "social_ops": 40,
+ "disputes": 10353,
+ "dispute_delay_days_median": 10.368579159002593,
+ "transfers": 5078345,
+ "laundering": 5177,
+ "own_accounts": 2000,
+ "transfers_period": [
+  "2019-09-05 00:00:00",
+  "2019-09-22 16:18:00"
+ ],
+ "cards": 3689,
+ "clients": 1214,
+ "merchants": 51150,
+ "seconds": 50
+}

@@ -1,0 +1,306 @@
+{
+ "copies_vs_real_series": {
+  "n": [
+   2969,
+   1312
+  ],
+  "distributions": {
+   "rel_amt": {
+    "median_a": 8.497,
+    "median_b": 2.931,
+    "ks": 0.32,
+    "p": 4.3734884474167866e-83
+   },
+   "gap_h": {
+    "median_a": 1.341,
+    "median_b": 1.392,
+    "ks": 0.085,
+    "p": 3.0691147225082615e-06
+   },
+   "hour": {
+    "median_a": 22.0,
+    "median_b": 13.0,
+    "ks": 0.51,
+    "p": 4.821772693457617e-217
+   }
+  },
+  "c2st": {
+   "roc_auc": 0.9995,
+   "roc_auc_sd": 0.0003,
+   "top_features": {
+    "hour_cos": 0.0747,
+    "mcc": 0.0199,
+    "merchant_risk": 0.0075,
+    "out_of_state": 0.0018,
+    "hour_sin": 0.0012
+   }
+  }
+ },
+ "merchant_vs_real_fraud": {
+  "n": [
+   787,
+   5609
+  ],
+  "distributions": {
+   "rel_amt": {
+    "median_a": 1.888,
+    "median_b": 1.855,
+    "ks": 0.049,
+    "p": 0.06743662196115591
+   },
+   "gap_h": {
+    "median_a": 3.417,
+    "median_b": 3.033,
+    "ks": 0.053,
+    "p": 0.03899226786643058
+   },
+   "hour": {
+    "median_a": 13.0,
+    "median_b": 13.0,
+    "ks": 0.052,
+    "p": 0.044109846444896725
+   }
+  },
+  "c2st": {
+   "roc_auc": 0.908,
+   "roc_auc_sd": 0.0046,
+   "top_features": {
+    "log_limit": 0.0877,
+    "acct_age_y": 0.0689,
+    "log_income": 0.0602,
+    "age": 0.0533,
+    "debt_ratio": 0.0482
+   }
+  }
+ },
+ "cpp": {
+  "scenarios": 26,
+  "flagged": 5,
+  "delay_median_days": 68.4,
+  "attacks_after_flag_pct": 10.7,
+  "flags_total": 379,
+  "flags_other_merchants": 307,
+  "flags_by_year": {
+   "2015": 82,
+   "2016": 294,
+   "2018": 1,
+   "2019": 2
+  },
+  "rows": [
+   {
+    "scenario": "m_train_0",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 24,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_1",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 52,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_2",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 23,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_3",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 23,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_4",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 36,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_5",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 41,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_6",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 43,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_7",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 32,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_8",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 24,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_9",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 23,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_10",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 27,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_train_11",
+    "period": "train",
+    "flagged": true,
+    "delay_days": 25.5,
+    "attacks": 63,
+    "attacks_after_flag_pct": 82.5
+   },
+   {
+    "scenario": "m_train_12",
+    "period": "train",
+    "flagged": true,
+    "delay_days": 0.2,
+    "attacks": 13,
+    "attacks_after_flag_pct": 100.0
+   },
+   {
+    "scenario": "m_train_13",
+    "period": "train",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 27,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_valid_0",
+    "period": "valid",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 11,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_valid_1",
+    "period": "valid",
+    "flagged": true,
+    "delay_days": 68.4,
+    "attacks": 23,
+    "attacks_after_flag_pct": 13.0
+   },
+   {
+    "scenario": "m_valid_2",
+    "period": "valid",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 48,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_valid_3",
+    "period": "valid",
+    "flagged": true,
+    "delay_days": 87.4,
+    "attacks": 23,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_0",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 55,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_1",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 28,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_2",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 8,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_3",
+    "period": "test",
+    "flagged": true,
+    "delay_days": 79.2,
+    "attacks": 53,
+    "attacks_after_flag_pct": 30.2
+   },
+   {
+    "scenario": "m_test_4",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 24,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_5",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 32,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_6",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 22,
+    "attacks_after_flag_pct": 0.0
+   },
+   {
+    "scenario": "m_test_7",
+    "period": "test",
+    "flagged": false,
+    "delay_days": null,
+    "attacks": 9,
+    "attacks_after_flag_pct": 0.0
+   }
+  ]
+ },
+ "timeline": {
+  "card": 5042,
+  "ops": 23,
+  "fraud_ops": 9
+ },
+ "seconds": 43
+}

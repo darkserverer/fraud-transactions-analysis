@@ -1,0 +1,27 @@
+{
+ "features": [
+  "log_amt",
+  "hour_sin",
+  "hour_cos"
+ ],
+ "sparkov_to_sparkov": {
+  "roc_auc": 0.9815,
+  "pr_auc": 0.5151,
+  "prevalence": 0.00386
+ },
+ "ulb_to_ulb": {
+  "roc_auc": 0.7049,
+  "pr_auc": 0.0037,
+  "prevalence": 0.00126
+ },
+ "sparkov_to_ulb": {
+  "roc_auc": 0.4913,
+  "pr_auc": 0.0018,
+  "prevalence": 0.00126
+ },
+ "ulb_to_sparkov": {
+  "roc_auc": 0.7751,
+  "pr_auc": 0.0127,
+  "prevalence": 0.00386
+ }
+}

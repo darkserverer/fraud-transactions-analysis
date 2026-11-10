@@ -1,0 +1,65 @@
+{
+ "rows": 5701472,
+ "labelled_in_window": 3585740,
+ "features": 33,
+ "cpp_flags": 379,
+ "cpp_flags_scenario": 72,
+ "scenario_merchants": 26,
+ "cpp_exposed_cards": 3544,
+ "cpp_exposed_by_class": {
+  "0": 0.3182,
+  "1": 0.3577,
+  "2": 0.5382,
+  "4": 0.2173,
+  "5": 0.2578
+ },
+ "delayed_train_positives": 36,
+ "delayed_final_positives": 56,
+ "final_positives": 7874,
+ "counters_median_by_class": {
+  "cnt_1h": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "4": 0.0,
+   "5": 0.0
+  },
+  "cnt_24h": {
+   "0": 1.0,
+   "1": 1.0,
+   "2": 4.0,
+   "4": 2.0,
+   "5": 1.0
+  },
+  "log_spent_24h": {
+   "0": 3.718,
+   "1": 4.041,
+   "2": 5.905,
+   "4": 4.281,
+   "5": 4.013
+  }
+ },
+ "train_positives": 6865,
+ "rel_amt_median_by_class": {
+  "0": 0.96,
+  "1": 1.624,
+  "2": 5.787,
+  "4": 1.888,
+  "5": 1.201
+ },
+ "gap_h_median_by_class": {
+  "0": 11.433,
+  "1": 4.775,
+  "2": 1.354,
+  "4": 3.417,
+  "5": 11.817
+ },
+ "client_disputes_mean_by_class": {
+  "0": 5.216,
+  "1": 5.581,
+  "2": 3.73,
+  "4": 5.774,
+  "5": 2.508
+ },
+ "seconds": 18
+}

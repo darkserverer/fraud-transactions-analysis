@@ -1,0 +1,22 @@
+{
+ "fraud_ops": 13332,
+ "counts": {
+  "anomalous": 1784,
+  "other": 4929,
+  "series": 6619
+ },
+ "shares_pct": {
+  "anomalous": 13.4,
+  "other": 37.0,
+  "series": 49.6
+ },
+ "card_days_by_size": {
+  "1": 3085,
+  "2": 1814,
+  "3": 939,
+  "4": 415,
+  "5": 218,
+  "6": 90
+ },
+ "series_with_rel_above_5_pct": 31.0
+}

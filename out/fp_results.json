@@ -1,0 +1,51 @@
+{
+ "test_days": 193.49,
+ "negatives": 553574,
+ "rows": [
+  {
+   "name": "0.1 %",
+   "alerts": 555,
+   "tp": 547,
+   "fp": 8,
+   "fpr_pct": 0.0014,
+   "fp_per_day": 0.04,
+   "fp_per_tp": 0.01
+  },
+  {
+   "name": "0.5 %",
+   "alerts": 2778,
+   "tp": 1863,
+   "fp": 915,
+   "fpr_pct": 0.1653,
+   "fp_per_day": 4.73,
+   "fp_per_tp": 0.49
+  },
+  {
+   "name": "1.0 %",
+   "alerts": 5557,
+   "tp": 1988,
+   "fp": 3569,
+   "fpr_pct": 0.6447,
+   "fp_per_day": 18.45,
+   "fp_per_tp": 1.8
+  },
+  {
+   "name": "2.0 %",
+   "alerts": 11114,
+   "tp": 2067,
+   "fp": 9047,
+   "fpr_pct": 1.6343,
+   "fp_per_day": 46.76,
+   "fp_per_tp": 4.38
+  },
+  {
+   "name": "rule",
+   "alerts": 4985,
+   "tp": 1025,
+   "fp": 3960,
+   "fpr_pct": 0.7154,
+   "fp_per_day": 20.47,
+   "fp_per_tp": 3.86
+  }
+ ]
+}
